@@ -4,39 +4,30 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion";
-import { getRef } from '@/lib/constants';
-import { EvidenceInline } from '@/components/EvidenceInline';
 
 export const FAQSection = () => {
-    const ref7 = getRef(7);
     const faqs = [
         {
-            q: "É só para engenharia?",
-            a: "Não. A Eva rampa novos colaboradores em qualquer área — com especialidade em tecnologia."
+            q: "Qual o tamanho mínimo para usar a Eva?",
+            a: "A Eva faz mais sentido para empresas que contratam com frequência, em geral 10 ou mais novas contratações por ano. Assim, o ganho de velocidade e padronização aparece mês a mês, com ramp-up mais previsível e menos dependência de pessoas-chave."
         },
         {
-            q: "Vocês também têm onboarding organizacional?",
-            a: "Sim. Um plano padronizado do preboarding às primeiras semanas.",
+            q: "Os módulos podem ser comprados à parte?",
+            a: "Sim, você pode contratar somente o Onboarding Organizacional ou somente o Ramp-up 30/60/90. Eles funcionam muito bem juntos, mas também entregam valor de forma independente, você escolhe o que faz mais sentido para sua prioridade atual."
         },
         {
-            q: "Quais integrações além do Slack?",
-            a: "Teams, Google Chat, WhatsApp, e-mail, calendário e webhooks."
+            q: "Como funciona a implantação da Eva?",
+            a: "A implantação acontece em até 15 dias úteis. Nós seguimos um framework já validado e pedimos os contextos necessários, empresa, área e função, para a Eva montar os primeiros fluxos automatizados e começar a guiar os novos talentos no dia a dia."
         },
         {
-            q: "O que preciso fornecer como contexto?",
-            a: "Manual do colaborador, manifest.xml e readme.txt (e, quando fizer sentido, contexto de projeto/produto).",
+            q: "Quais segmentos de empresas vocês atendem?",
+            a: "Atendemos empresas de diversos segmentos. Nossas áreas de especialidade são tecnologia, vendas e sucesso do cliente, onde ramp-up rápido e consistência operacional geram impacto direto no roadmap e na receita."
         },
         {
-            q: "Como vocês medem evolução sem virar métrica “tóxica”?",
-            a: (
-                <>
-                    Usamos sinais de evolução do sistema e da experiência do time, alinhados a frameworks com <span className="font-bold text-foreground">5 dimensões</span>
-                    {ref7 && <EvidenceInline sourceName={ref7.sourceName} href={ref7.url} />} (ex.: SPACE).
-                </>
-            )
+            q: "A Eva tem API para integrar com outras ferramentas?",
+            a: "Sim, a Eva oferece API para integrações com outras ferramentas e sistemas internos, para conectar eventos, dados e fluxos de trabalho ao seu stack."
         }
     ];
-
 
     return (
         <section id="faq" className="section-padding bg-transparent">
