@@ -13,10 +13,10 @@ export const Footer = () => {
           </div>
 
           <div className="flex items-center gap-6 md:justify-end">
-            <a href="https://evapeople.com.br/blog/" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://evapeople.com.br/blog/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
               Blog
             </a>
-            <a href="https://evapeople.com.br/cases/" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://evapeople.com.br/cases/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
               Cases
             </a>
           </div>
@@ -25,7 +25,7 @@ export const Footer = () => {
         <div className="pt-8 border-t border-border/50 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 text-xs text-muted-foreground">
           <div className="space-y-1">
             <p>
-              Eva People © 2025. Todos os direitos reservados | <a href="https://evapeople.com.br/politica-de-privacidade/" className="hover:text-primary transition-colors underline underline-offset-2">Política de Privacidade</a>
+              Eva People © 2025. Todos os direitos reservados | <a href="https://evapeople.com.br/politica-de-privacidade/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline underline-offset-2">Política de Privacidade</a>
             </p>
             <p>
               Cubo Itaú®, Alameda Vicente Pinzon, 54 – 12º andar – Vila Olímpia, São Paulo – SP, 04547-130

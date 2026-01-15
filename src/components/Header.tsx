@@ -41,7 +41,7 @@ export const Header = () => {
 
     // Handle external links
     if (item && item.type === 'external' && 'href' in item) {
-      window.location.href = item.href;
+      window.open(item.href, '_blank');
       return;
     }
 
