@@ -1,73 +1,65 @@
-# Welcome to your Lovable project
+# Eva People - Landing Page (Ramp-up Buddy)
 
-## Project info
+Bem-vindo ao repositório da Landing Page da Eva People. Este projeto foi desenvolvido para apresentar a solução de aceleração de ramp-up de novos talentos de tecnologia.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+O projeto utiliza uma stack moderna baseada em **React**, **Vite**, **TypeScript** e **Tailwind CSS**.
 
-## How can I edit this code?
+## 🚀 Como Rodar o Projeto
 
-There are several ways of editing your application.
+### Pré-requisitos
+*   Node.js (versão 18 ou superior recomendada)
+*   npm ou yarn
 
-**Use Lovable**
+### Instalação
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+1.  Clone o repositório:
+    ```bash
+    git clone https://github.com/hugodaeva/eva-rampup-buddy.git
+    cd eva-rampup-buddy
+    ```
 
-Changes made via Lovable will be committed automatically to this repo.
+2.  Instale as dependências:
+    ```bash
+    npm install
+    ```
 
-**Use your preferred IDE**
+3.  Rode o servidor de desenvolvimento:
+    ```bash
+    npm run dev
+    ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+4.  Acesse o projeto em `http://localhost:8080/` (ou na porta indicada no terminal).
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠 Tecnologias Utilizadas
 
-Follow these steps:
+*   **Core**: React 18, TypeScript, Vite
+*   **Estilização**: Tailwind CSS utils, Lucide React (ícones)
+*   **UI Components**: shadcn/ui (Radix UI primitives)
+*   **Animações**: Tailwind animate, transições CSS customizadas
+*   **Integrações**: HubSpot Forms (Embed API)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📁 Estrutura de Pastas
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+*   `src/components`: Componentes reutilizáveis (Header, Footer, UI Kits).
+*   `src/components/sections`: Seções específicas da Landing Page (Hero, Pain, HowItWorks, etc.).
+*   `src/components/ui`: Componentes base do design system (Buttons, Cards, Inputs).
+*   `src/pages`: Páginas da aplicação (Index, NotFound).
+*   `public/logos`: Assets de imagens e logotipos.
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🤖 Contexto para IA
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Se você está usando uma IA para ajudar no desenvolvimento, consulte o arquivo [CONTEXT.md](./CONTEXT.md) na raiz do projeto. Ele contém detalhes profundos sobre a arquitetura, regras de design e estrutura do código para facilitar o entendimento do contexto completo.
 
-**Edit a file directly in GitHub**
+## 📝 Scripts Disponíveis
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+*   `npm run dev`: Inicia o servidor local.
+*   `npm run build`: Gera a build de produção na pasta `dist`.
+*   `npm run preview`: Visualiza a build de produção localmente.
+*   `npm run lint`: Checa erros de linting.
 
-**Use GitHub Codespaces**
+## 🎨 Design System
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+O projeto segue um design system minimalista e "clean", focado em conversão B2B.
+*   **Cores Primárias**: Tons de roxo/azul (`primary`) e fundo claro.
+*   **Tipografia**: Sans-serif moderna (Inter/System fonts).
+*   **Elementos Chave**: Cards com elevação suave (`card-elevated`), botões arredondados, ícones funcionais.
