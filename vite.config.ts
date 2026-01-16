@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
-  base: "/eva-rampup-buddy/",
+  base: mode === "development" ? "/" : "/eva-rampup-buddy/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
